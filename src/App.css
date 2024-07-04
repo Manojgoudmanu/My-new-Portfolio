@@ -1,0 +1,61 @@
+/* Default styles (light theme) */
+body {
+    background-color: #ffffff;
+    color: #000000;
+    transition: background-color 0.3s, color 0.3s;
+    
+  }
+  
+  /* Dark theme styles */
+  body[data-theme='dark'] {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  /* Additional styles for dark theme */
+  body[data-theme='dark'] a {
+    color: #f1eff5;
+  }
+  
+  /* Additional styles for light theme */
+  body[data-theme='light'] a {
+    color: #0a0a0a;
+  }
+  
+  /* Common styles for both themes */
+  button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  .hover {
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: #62e6e6;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hover:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  .hover:active {
+    background-color: #003f7f;
+    transform: translateY(0);
+  }
+  
+  .hover:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.5);
+  }

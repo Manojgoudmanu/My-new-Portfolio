@@ -1,0 +1,65 @@
+/* General container styling */
+.container {
+  padding: 40px 20px;
+  text-align: center;
+  background-color:none;
+}
+
+/* Section title styling */
+.sectiontitle {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #343a40;
+}
+
+/* Projects container styling */
+.ProjectsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Individual project card styling */
+.ProjectsContainer a {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: none;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 250px; /* Adjust the width as needed */
+  max-width: 100%;
+}
+
+/* Project image styling */
+.ProjectsContainer img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* Project title styling */
+.ProjectsContainer h2 {
+  font-size: 1.5em;
+  margin: 10px 0 5px;
+  color: none;
+}
+
+/* Project description styling */
+.ProjectsContainer p {
+  font-size: 1em;
+  color: rgb(245, 149, 47);
+   
+}
+
+/* Hover effect for project cards */
+.ProjectsContainer a:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}

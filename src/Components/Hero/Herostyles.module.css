@@ -1,0 +1,77 @@
+.divcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.profilepic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.themeicon {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.name {
+  text-align: center;
+}
+
+.name h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.name h2 {
+  font-size: 1.5em;
+  margin: 0;
+  color: gray;
+}
+
+.name span {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.name span a {
+  margin: 0 10px;
+}
+
+.name p {
+  margin-top: 10px;
+}
+
+.hover {
+  padding: 10px 20px;
+  font-size: 1em;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  background-color: #72f9e0;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hover:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.hover:active {
+  background-color: #003f7f;
+  transform: translateY(0);
+}
+
+.hover:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.5);
+}
+
