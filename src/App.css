@@ -19,7 +19,7 @@ body {
   
   /* Additional styles for light theme */
   body[data-theme='light'] a {
-    color: #0a0a0a;
+    color: #141313;
   }
   
   /* Common styles for both themes */
@@ -58,4 +58,35 @@ body {
   .hover:focus {
     outline: none;
     box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.5);
+  }
+  @media (width >= 800px) {
+    #root {
+      gap: 100px;
+    }
+    h1 {
+      font-size: 40px;
+    }
+    h2,
+    h3 {
+      font-size: 24px;
+    }
+    p {
+      font-size: 20px;
+    }
+  
+    .sectionTitle {
+      margin-bottom: 60px;
+    }
+    @media (width >= 1400px) {
+      #root {
+        gap: 200px;
+      }
+      h1 {
+        font-size: 48px;
+      }
+  
+      .sectionTitle {
+        margin-bottom: 75px;
+      }
+    }
   }
